@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-color:#E6E6E6;
+  height: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin-top: 50px;
+  width: 40%;
+  color: black;
+}
+
+img{
+  width:60%;
+  height:auto;
+}
+@media screen and (max-width:420px) {
+   img{
+     width:100%;
+     }
+     .bgimg{
+       font-size: 12px;
+     }
+ }
