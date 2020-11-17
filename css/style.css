@@ -28,11 +28,3 @@ img{
   width:60%;
   height:auto;
 }
-@media screen and (max-width:420px) {
-   img{
-     width:100%;
-     }
-     .bgimg{
-       font-size: 12px;
-     }
- }
